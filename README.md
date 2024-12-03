@@ -80,7 +80,6 @@ Here are some planned features that can further improve the application:
 To run the project locally, follow these steps:
 
 ### **Prerequisites**
-
 - Node.js installed (v16+)
 - Git installed
 
@@ -110,7 +109,7 @@ To run the project locally, follow these steps:
 
 4. Open your browser and navigate to:
    ```bash
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ## **Screenshots**
