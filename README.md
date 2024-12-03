@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# **Role-Based Access Control (RBAC) UI**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Role-Based Access Control (RBAC) User Interface designed and developed by Devyansh, ABESEC Engineering college Ghaziabad, as part of the VRV Security Frontend Developer Intern assignment. The application delivers a user-friendly and secure platform for managing users, roles, and permissions. Leveraging modern web technologies, it emphasizes creativity, functionality, and an exceptional user experience.
 
-## Available Scripts
 
-In the project directory, you can run:
+## **Table of Contents**
 
-### `npm start`
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Additional Features](#additional-features)
+4. [Technology Stack](#technology-stack)
+5. [Setup Instructions](#setup-instructions)
+6. [Screenshots](#screenshots)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Project Overview**
 
-### `npm test`
+The RBAC UI empowers administrators to seamlessly manage key operations, including user, role, and permission management. With a focus on clean design and dynamic animations, the application ensures a responsive and engaging experience across all devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Core Requirements Addressed:**
 
-### `npm run build`
+- **User Management**: Add, edit, delete, and assign roles to users.
+- **Role Management**: Define roles and manage associated permissions.
+- **Dynamic Permissions**: Assign permissions dynamically to roles.
+- **Smooth animations** using **Framer Motion** for a modern UI experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Features**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **User Management**
 
-### `npm run eject`
+- Display user information in an organized, responsive table.
+- Perform dynamic operations like adding, editing, or deleting users.
+- Assign roles and update user statuses (e.g., Active/Inactive).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Role Management**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Create, edit, or delete roles.
+- Manage permissions for roles dynamically.
+- Display permissions in an intuitive UI.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Permission Handling**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Assign, remove, and customize permissions for specific roles.
+- Modular permission categories (e.g., Read, Write, Delete).
 
-## Learn More
+### **UI/UX**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Responsive design using **Tailwind CSS** for a seamless experience across all devices.
+- Animations powered by **Framer Motion** for smooth transitions and user feedback.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## **Additional Features**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here are some planned features that can further improve the application:
 
-### Analyzing the Bundle Size
+- **Sorting and Filtering**: Add sorting and filtering for users, roles, and permissions.
+- **Search Functionality**: Global search for easier navigation.
+- **Audit Logs**: Track changes to roles, users, and permissions.
+- **Pagination**: Implement pagination to improve the handling of large datasets, making navigation easier when viewing long lists of users, roles, and permissions.
+- **Multiple Select to Delete**: Allow administrators to select multiple users, roles, or permissions at once and delete them in bulk for better management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## **Technology Stack**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Frontend Framework**: [React](https://reactjs.org/) with [Vite](https://vitejs.dev/) for fast development.
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for modern and responsive UI.
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) for dynamic and smooth animations.
+- **Hosting**: [Vercel](https://vercel.com/) for fast and reliable deployment.
+- **Icons**: React Icons for a clean visual design.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **Setup Instructions**
 
-### Deployment
+To run the project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### **Prerequisites**
 
-### `npm run build` fails to minify
+- Node.js installed (v16+)
+- Git installed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Installation**
+
+1. Clone the repository:
+
+   ```bash
+   git clone 
+   cd rbac-ui
+
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+
+   ```
+
+4. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
+   ```
+
+## **Screenshots**
+
+### Dashboard
+
+![Dashboard](./public/images/dashboard.png)
+
+### User Management
+
+![User Management](./public/images/user.png)
+
+### Role Management
+
+![Role Management](./public/images/role.png)
+
+### Permission Management
+
+![Permission Management](./public/images/permission.png)
+# ASSIGNMENT_RBAC_UI
