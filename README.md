@@ -88,7 +88,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/DevRajput1/Assignment_RBACUI.git
    cd rbac-ui
 
    ```
